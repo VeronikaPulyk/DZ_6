@@ -1,0 +1,12 @@
+
+body {
+	font-family: Georgia;
+}
+p {
+	font-size: 1em;
+	color: #2196f3;
+}
+p::first-letter {
+	font-size: 2em;
+	color: #ff0101;
+}

@@ -1,0 +1,22 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.one {
+	background: green;
+}
+.two {
+	background: violet;
+}
+.one:hover {
+	background: yellow;
+}
+.two:hover {
+	background: brown;
+}
+.one:active {
+	background: red;
+}
+.two:active {
+	background: gold;
+}

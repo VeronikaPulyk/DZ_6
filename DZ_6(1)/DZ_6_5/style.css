@@ -1,0 +1,10 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+p::after {
+	content: "*";
+	display: block;
+	text-align: center;
+	margin: 10px;
+}

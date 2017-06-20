@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+.block {
+	height: 60px;
+	width: 90px;
+	background: #000;
+	margin: 30px auto;
+	position: relative;
+}
+.block::before {
+	content: ''; 
+    position: absolute;
+    left: -30px; 
+    top: 20px;
+    border: 10px solid transparent;
+    border-right: 20px solid #000;
+}

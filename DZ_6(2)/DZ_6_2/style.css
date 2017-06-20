@@ -1,0 +1,15 @@
+table, tr, th, td {
+	text-align: center;
+}
+tr, th, td {
+	padding: 10px 50px;
+}
+tr:first-child {
+	border-bottom: 1px solid black;
+}
+table {
+	border-collapse: collapse;
+	padding: 10px;
+	background-color: #ffe0e5;
+	display: inline-block;
+}
